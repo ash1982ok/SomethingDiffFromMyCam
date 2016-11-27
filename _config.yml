@@ -68,4 +68,7 @@ theme: aero-dual
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/ash1982ok/SomethingDiffFromMyCam.git
+  branch: gh-pages
+  message: Ashok's Photography Blog Updated on {{ now('YYYY-MM-DD HH:mm:ss') }}
